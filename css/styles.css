@@ -167,6 +167,10 @@ h2 {
   margin: 1rem;
 }
 
+.contact-link:hover {
+  color: #ff4c68;
+}
+
 /* Media Querry */
 
 @media (max-width: 992px) {
