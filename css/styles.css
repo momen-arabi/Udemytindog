@@ -8,6 +8,10 @@ h1, h2, h3, .testimonials-text {
   font-weight: 900;
 }
 
+p {
+  color: #8f8f8f;
+}
+
 /* Headings */
 
 .title-heading {
@@ -93,7 +97,7 @@ h1, h2, h3, .testimonials-text {
   margin: 5% 3% 5% 0;
 }
 
-header {
+.title-text {
   padding-top: 4.5rem;
   padding-bottom: 2.5rem;
 }
@@ -111,10 +115,6 @@ header {
 
 #features i:hover {
   color: #ff4c68;
-}
-
-p {
-  color: #8f8f8f;
 }
 
 /* Testimonials */
