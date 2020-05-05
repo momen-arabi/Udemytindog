@@ -1,13 +1,58 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, .testimonials-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+/* Headings */
+
+.title-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.features-heading {
+  font-size: 1.5rem;
+}
+
+.cta-heading {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing-heading {
+  font-size: 2.25rem;
+}
+/* Padding */
+
+.padding {
+  padding: 4% 7%;
+}
+
+/*Background Colors */
+
+.light-pink {
+  background-color: #ef8172;
+}
+
+.pink {
+  background-color: #ff4c68;
+}
+
+.white {
+  background-color: white;
 }
 
 /* Title */
 
 #title {
-  background-color: #ff4c68;
+  text-align: left;
   color: white;
-  padding: 4% 7%;
 }
 
 /* Navigation Bar */
@@ -48,13 +93,6 @@ body {
   margin: 5% 3% 5% 0;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
 header {
   padding-top: 4.5rem;
   padding-bottom: 2.5rem;
@@ -64,14 +102,6 @@ header {
 
 #features {
   padding: 7% 7%;
-  text-align: center;
-  background-color: white;
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
 }
 
 #features i {
@@ -89,32 +119,13 @@ p {
 
 /* Testimonials */
 
-.carousel-item {
-  padding: 4% 7%;
-}
-
-#press {
-  background-color: #ef8172;
-  text-align: center;
-  padding: 4% 7%;
-}
-
 .press-img {
   width: 20%;
   margin: 2% 2% 4%;
 }
 
 #testimonials {
-  background-color: #ef8172;
-  text-align: center;
   color: white;
-}
-
-.testimonials-text {
-  line-height: 1.5;
-  font-size: 2.5rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
 }
 
 .testimonials-img {
@@ -125,43 +136,11 @@ p {
 
 /* Pricing */
 
-h2 {
-  font-size: 2.25rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-}
-
-#pricing {
-  padding: 4% 7%;
-  text-align: center;
-  background-color: white;
-}
-
 .pricing-col {
   padding: 3%;
 }
 
-/* Call to Action */
-
-#cta {
-  background-color: #ff4c68;
-  padding: 4% 7%;
-  text-align: center;  
-}
-
-.cta-header {
-  color: white;
-  font-size: 2.5rem;
-  line-height: 1.5;
-}
-
 /* Footer */
-
-#footer {
-  background-color: #fff;
-  padding: 4% 7%;
-  text-align: center;
-}
 
 .contact {
   margin: 1rem;
@@ -179,7 +158,7 @@ h2 {
     transform: rotate(0deg);
     position: relative;
   }
-  body {
+  #title {
     text-align: center;
   }
 }
